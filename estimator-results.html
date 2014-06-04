@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0;" />
+
+    <title>Financial Aid Estimator</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="style/main.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="root">
+
+	<h1>Financial Aid Estimator</h1>
+	<h2>University Name</h2>
+
+    <p>
+        The Financial Aid Estimator provides an estimated Financial Aid Award Letter for prospective students.
+		The estimated values produced by this tool are not the actual amounts
+        that will be offered in your final Financial Aid Award Letter. All estimated values are <strong>subject to the
+        availability of funding</strong>. To begin the actual Financial Aid application process, complete a
+        <a href="http://www.fafsa.ed.gov/">FAFSA</a>. 
+    </p>
+    
+	<div class="results-wrapper">
+	
+		<h3>Expected Family Contribution</h3>
+	
+		<ul class="results">
+			<li>
+				<span class="result-label">
+					Student Contribution
+					<span class="description">Amount that you are expected to contribute towards the cost of your education</span>
+				</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+			<li>
+				<span class="result-label">
+					Parent Contribution
+					<span class="description">Amount that your parents are expected to contribute towards the cost of your education</span>
+				</span>
+				<span class="plus-operator">+</span><span class="result-amount">$99,999.00</span>
+			</li>
+			<li class="total">
+				<span class="result-label">
+					Expected Family Contribution
+					<span class="description">Sum of the Student Contribution (SC) and Parent Contribution (PC)</span>
+				</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+		</ul>
+		
+		<h3>Estimated Award Letter</h3>
+		
+		<ul class="results">
+			<li>
+				<span class="result-label">
+					Grant Award
+					<span class="description">Estimated total amount of grants that you will be offered in your Financial Aid Award Letter</span>
+				 </span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+			<li>
+				<span class="result-label">
+					Self Help Award
+					<span class="description">Estimated total amount of student loans and Work-Study you will be offered in your Financial Aid Award Letter</span>
+				</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+			<li>
+				<span class="result-label">
+					Family Help Award
+					<span class="description">Estimated total amount of parent loans and private loan eligiblity you will be offered in your Financial Aid Award Letter</span>
+				</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+		</ul>
+		
+		<h3>Estimated Total Price of Attendance</h3>
+		
+		<ul class="results">
+			<li>
+				<span class="result-label">
+					Tuition and Fees
+					<span class="description">Includes cost of education, university health care, and miscellaneous university fees</span>
+				</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+			<li>
+				<span class="result-label">
+					Room and Board
+					<span class="description">Includes rent, food, and utilities</span>
+				</span>
+				<span class="plus-operator">+</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+			<li>
+				<span class="result-label">
+					Books and Supplies
+					<span class="description">Includes books and supplies</span>
+				</span>
+				<span class="plus-operator">+</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+			<li>
+				<span class="result-label">
+					Other Expenses
+					<span class="description">Includes transportation and miscellaneous personal expenses</span>
+				</span>
+				<span class="plus-operator">+</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+			<li class="total">
+				<span class="result-label">
+					Total Cost of Attendance
+					<span class="description">The total cost of attendance</span>
+				</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+			<li>
+				<span class="result-label">
+					Grant Award
+					<span class="description">Total estimated Grant Award</span>
+				</span>
+				<span class="minus-operator">-</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+			<li class="total">
+				<span class="result-label">
+					Estimated Net Cost
+					<span class="description">The total cost of attendance that you must contribute towards your education through either loans or out-of-pocket expense</span>
+				</span>
+				<span class="result-amount">$99,999.00</span>
+			</li>
+		</ul>
+		
+		<p id="cohort-notice">
+			<strong>XX%</strong> of first-year full-time dependent, undergraduate students received grant aid in 20XX-20YY
+		</p>
+		
+		<span class="button-wrapper">
+			<a href="estimator-form.html" class="button">&laquo; Return to Calculator</a>
+		</span>
+		
+	</div>
+	
+</div>
+</body>
+</html>
