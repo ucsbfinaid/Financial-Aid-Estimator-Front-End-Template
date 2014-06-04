@@ -1,3 +1,22 @@
+/* =CLEARFIXES
+============================================= */
+
+#root:before, #root:after
+{
+	content: "";
+	display: table;
+}
+
+#root:after
+{
+	clear: both;
+}
+
+#root
+{
+	zoom: 1;
+}
+
 /* =GLOBAL
 ============================================= */
 
