@@ -22,6 +22,7 @@ body
     border-radius: 5px;
     box-shadow: 0 2px 2px #133569;
     margin: 10px auto;
+	overflow: auto;
     padding: 20px 50px;
     max-width: 640px;
 }
@@ -158,6 +159,7 @@ input.button
 .dependency-choice
 {
     list-style: none;
+	overflow: auto;
     padding: 0;
 }
 
