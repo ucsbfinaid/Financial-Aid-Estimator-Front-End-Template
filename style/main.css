@@ -383,119 +383,119 @@ p.error
 
 @media (min-width: 768px)
 {
-    h1
-    {
-        font-size: 3.2em;
-        margin-bottom: 0.25em;
-    }
-    
-    #root
-    {
-        margin: 20px auto;
-    }
-    
-    .button-wrapper
-    {
-        clear: both;
-        float: none;
-        display: block;
-        margin: 0 auto;
-        width: 60%;
-    }
-    
-    .button
-    {
-        float: none;
-    }
-    
-    .dependency-choice
-    {
-        margin: 2em auto;
-        width: 544px;
-    }
-    
-    .dependency-choice li
-    {
-        clear: none;
-        float: left;
-        margin: 0 10px;
-        width: 250px;
-    }
-    
-    label
-    {
-        float: left;
-        width: 50%;
-    }
-    
-    input, select, .radio-input-wrapper
-    {
-        float: right;
-        width: 45%;
-    }
-    
-    select, .radio-input-wrapper
-    {
-        width: 47%;
-    }
-    
-    .radio-input-wrapper
-    {
-        clear: right;
-        text-align: left;
-    }
-    
-    legend
-    {
-        float: left;
-    }
-    
-    .radio-input-wrapper label, .radio-input-wrapper input
-    {
-        float: none;
-    }
-    
-    .results li
-    {
-        float: left;
-        clear: both;
-        margin-bottom: 1em;
-        width: 100%;
-    }
-    
-    .result-label
-    {
-        float: left;
-        margin-right: 10%;
-        width: 40%;
-    }
-    
-    .result-amount
-    {
-        display: inline;
-        margin-top: 0;
-        margin-left: 20px;
-    }
-    
-    .plus-operator, .minus-operator
-    {
-        display: inline;
-    }
-    
-    .plus-operator
-    {
-        margin-right: -0.55em;
-    }
-    
-    .minus-operator
-    {
-        margin-right: -0.3em;
-    }
-    
-    .validation-message
-    {
-        clear: right;
-        float: right;
-        width: 45%;
-    }
+	h1
+	{
+		font-size: 3.2em;
+		margin-bottom: 0.25em;
+	}
+
+	#root
+	{
+		margin: 20px auto;
+	}
+
+	.button-wrapper
+	{
+		clear: both;
+		float: none;
+		display: block;
+		margin: 0 auto;
+		width: 60%;
+	}
+
+	.button
+	{
+		float: none;
+	}
+
+	.dependency-choice
+	{
+		margin: 2em auto;
+		width: 544px;
+	}
+
+	.dependency-choice li
+	{
+		clear: none;
+		float: left;
+		margin: 0 10px;
+		width: 250px;
+	}
+
+	label
+	{
+		float: left;
+		width: 50%;
+	}
+
+	input, select, .radio-input-wrapper
+	{
+		float: right;
+		width: 45%;
+	}
+
+	select, .radio-input-wrapper
+	{
+		width: 47%;
+	}
+
+	.radio-input-wrapper
+	{
+		clear: right;
+		text-align: left;
+	}
+
+	legend
+	{
+		float: left;
+	}
+
+	.radio-input-wrapper label, .radio-input-wrapper input
+	{
+		float: none;
+	}
+
+	.results li
+	{
+		float: left;
+		clear: both;
+		margin-bottom: 1em;
+		width: 100%;
+	}
+
+	.result-label
+	{
+		float: left;
+		margin-right: 10%;
+		width: 40%;
+	}
+
+	.result-amount
+	{
+		display: inline;
+		margin-top: 0;
+		margin-left: 20px;
+	}
+
+	.plus-operator, .minus-operator
+	{
+		display: inline;
+	}
+
+	.plus-operator
+	{
+		margin-right: -0.55em;
+	}
+
+	.minus-operator
+	{
+		margin-right: -0.3em;
+	}
+
+	.validation-message
+	{
+		clear: right;
+		float: right;
+		width: 45%;
+	}
 }
