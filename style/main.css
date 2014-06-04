@@ -90,6 +90,7 @@ li
 .button
 {
     background: #E5F0FF;
+	background-image: -ms-linear-gradient(bottom, #E5F0FF 50%, #FFF 50%);
     background-image: -moz-linear-gradient(bottom, #E5F0FF 50%, #FFF 50%);
     background-image: -o-linear-gradient(bottom, #E5F0FF 50%, #FFF 50%);
     background-image: -webkit-linear-gradient(bottom, #E5F0FF 50%, #FFF 50%);
@@ -112,6 +113,7 @@ li
 
 .button:hover
 {
+    background-image: -ms-linear-gradient(bottom, #edf4ff 50%, #FFF 50%);
     background-image: -moz-linear-gradient(bottom, #edf4ff 50%, #FFF 50%);
     background-image: -o-linear-gradient(bottom, #edf4ff 50%, #FFF 50%);
     background-image: -webkit-linear-gradient(bottom, #edf4ff 50%, #FFF 50%);
