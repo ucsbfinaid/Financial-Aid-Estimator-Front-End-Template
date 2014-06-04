@@ -1,37 +1,3 @@
-/* =RESET
-============================================= */
-
-body, fieldset
-{
-    margin: 0;
-    padding: 0;
-}
-
-/* =CLEARFIXES
-============================================= */
-
-#root:before, #root:after,
-.dependency-choice:before, .dependency-choice:after,
-.results:before, .results:after
-{
-    content: "";
-    display: table;
-}
- 
-#root:after,
-.dependency-choice:after,
-.results:after
-{
-    clear: both;
-}
- 
-#root,
-.dependency-choice,
-.results
-{
-    zoom: 1;
-}
-
 /* =GLOBAL
 ============================================= */
 
